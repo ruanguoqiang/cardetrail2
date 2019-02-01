@@ -58,9 +58,12 @@
             <div class="col-lg-12 col-md-12 ">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                        <i class="	glyphicon glyphicon-plus-sign col-lg-push-9"></i>
+                        <a href="javascript:;" onclick="datadel()" class="btn btn-danger " style="margin-left: 10px">
+                            <i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
+                        <a class="btn btn-primary " style="margin-left: 20px" onclick="admin_role_add('添加角色','admin-role-add')" href="javascript:;">
+                            <i class="Hui-iconfont">&#xe600;</i> 添加角色</a>
                     </div>
+                </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
                         <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
@@ -211,7 +214,7 @@
                 {
                     "data": null,
                     render: function (data, type, row, meta) {
-                        return "<a style=\"text-decoration:none\" class=\"ml-5\" onClick=\"admin_role_edit('角色编辑','admin-role-edit',"+row.id+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"\glyphicon glyphicon-wrench\"></i></a> <a style=\"text-decoration:none\" class=\"ml-5\" onClick=\"admin_role_del(this,"+row.id+")\" href=\"javascript:;\" title=\"删除\"><i class=\"fa remove\"></i></a>";
+                        return "<a style=\"text-decoration:none;margin-left:5px\" class=\"ml-5\" onClick=\"admin_role_edit('角色编辑','admin-role-edit',"+row.id+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"\glyphicon glyphicon-wrench\"></i></a> <a style=\"text-decoration:none;margin-left:10px\" class=\"ml-15\" onClick=\"admin_role_del(this,"+row.id+")\" href=\"javascript:;\" title=\"删除\"><i class=\"\glyphicon glyphicon-remove-circle\"></i></a>";
                     }
                 }
             ],

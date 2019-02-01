@@ -432,4 +432,5 @@ table.dataTable thead .sorting:after {
     border-left-width: 0;
   }
   .ml-5{margin-left:5px}
+  .ml-15{margin-left:15px}
 }
