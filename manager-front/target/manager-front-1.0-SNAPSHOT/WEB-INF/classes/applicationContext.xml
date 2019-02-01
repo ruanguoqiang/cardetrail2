@@ -17,9 +17,9 @@
 	 <aop:aspectj-autoproxy/>
 
 
-<!--
+
 	<import resource="dubbo-consumer-front.xml" />
--->
+
 
 
 <!--

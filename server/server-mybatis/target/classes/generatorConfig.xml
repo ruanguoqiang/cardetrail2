@@ -43,12 +43,12 @@
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		<!-- 指定数据库表 -->
-		<table  schema="" tableName="app" ></table>
-		<table  schema="" tableName="permission" ></table>
-		<table  schema="" tableName="role" ></table>
-		<table  schema="" tableName="role_permission" ></table>
-		<table  schema="" tableName="user" ></table>
-		<table  schema="uRole" tableName="user_role" ></table>
-		<table  schema="" tableName="item_car" ></table>
+		<table  schema="" tableName="Provider" ></table>
+		<table  schema="" tableName="Consumer" ></table>
+		<table  schema="" tableName="Goods" ></table>
+		<table  schema="" tableName="Storages" ></table>
+		<table  schema="" tableName="Stock" ></table>
+		<table  schema="" tableName="Stock_In" ></table>
+		<table  schema="" tableName="Stock_Out" ></table>
 	</context>
 </generatorConfiguration>

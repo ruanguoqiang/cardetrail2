@@ -23,6 +23,7 @@
 	<dubbo:service retries="0" interface="com.qiangge.interf.PermissionService" ref="permissionServiceImpl" />
 	<dubbo:service retries="0" interface="com.qiangge.interf.UserService" ref="userServiceImpl" />
 	<dubbo:service retries="0" interface="com.qiangge.interf.ItemCarService" ref="itemCarServiceImp" />
+	<dubbo:service retries="0" interface="com.qiangge.interf.ProvideService" ref="provideServiceImp" />
 
 
 

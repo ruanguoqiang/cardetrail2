@@ -51,7 +51,6 @@
         },
         callback: {
             onAsyncSuccess: function(){
-                layer.close(index);
             },
             beforeClick: function(treeId, treeNode) {
                 $("#name").val(treeNode.name);

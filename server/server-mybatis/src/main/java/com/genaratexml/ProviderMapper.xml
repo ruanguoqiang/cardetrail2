@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.genaratexml.ProviderMapper" >
+  <resultMap id="BaseResultMap" type="com.common.pojo.Provider" >
+    <id column="Pno" property="pno" jdbcType="VARCHAR" />
+    <result column="Pname" property="pname" jdbcType="VARCHAR" />
+    <result column="Padddr" property="padddr" jdbcType="VARCHAR" />
+    <result column="Ptel" property="ptel" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    Pno, Pname, Padddr, Ptel
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.common.pojo.ProviderExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from Provider
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from Provider
+    where Pno = #{pno,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from Provider
+    where Pno = #{pno,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.common.pojo.ProviderExample" >
+    delete from Provider
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.common.pojo.Provider" >
+    insert into Provider (Pno, Pname, Padddr, 
+      Ptel)
+    values (#{pno,jdbcType=VARCHAR}, #{pname,jdbcType=VARCHAR}, #{padddr,jdbcType=VARCHAR}, 
+      #{ptel,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.common.pojo.Provider" >
+    insert into Provider
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="pno != null" >
+        Pno,
+      </if>
+      <if test="pname != null" >
+        Pname,
+      </if>
+      <if test="padddr != null" >
+        Padddr,
+      </if>
+      <if test="ptel != null" >
+        Ptel,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="pno != null" >
+        #{pno,jdbcType=VARCHAR},
+      </if>
+      <if test="pname != null" >
+        #{pname,jdbcType=VARCHAR},
+      </if>
+      <if test="padddr != null" >
+        #{padddr,jdbcType=VARCHAR},
+      </if>
+      <if test="ptel != null" >
+        #{ptel,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.common.pojo.ProviderExample" resultType="java.lang.Integer" >
+    select count(*) from Provider
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update Provider
+    <set >
+      <if test="record.pno != null" >
+        Pno = #{record.pno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.pname != null" >
+        Pname = #{record.pname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.padddr != null" >
+        Padddr = #{record.padddr,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ptel != null" >
+        Ptel = #{record.ptel,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update Provider
+    set Pno = #{record.pno,jdbcType=VARCHAR},
+      Pname = #{record.pname,jdbcType=VARCHAR},
+      Padddr = #{record.padddr,jdbcType=VARCHAR},
+      Ptel = #{record.ptel,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.common.pojo.Provider" >
+    update Provider
+    <set >
+      <if test="pname != null" >
+        Pname = #{pname,jdbcType=VARCHAR},
+      </if>
+      <if test="padddr != null" >
+        Padddr = #{padddr,jdbcType=VARCHAR},
+      </if>
+      <if test="ptel != null" >
+        Ptel = #{ptel,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where Pno = #{pno,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.common.pojo.Provider" >
+    update Provider
+    set Pname = #{pname,jdbcType=VARCHAR},
+      Padddr = #{padddr,jdbcType=VARCHAR},
+      Ptel = #{ptel,jdbcType=VARCHAR}
+    where Pno = #{pno,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectBySerch" parameterType="String" resultMap="BaseResultMap">
+   SELECT * from Provider
+   where
+     Pname LIKE #{searchkey}
+    OR
+     Padddr LIKE #{searchkey}
+     OR
+     Ptel LIKE #{searchkey}
+     ORDER  BY
+     ${orderCol}
+     ${orderDir}
+  </select>
+</mapper>

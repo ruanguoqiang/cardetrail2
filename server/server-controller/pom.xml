@@ -103,6 +103,15 @@
                 <artifactId>mybatis-spring</artifactId>
             </dependency>
 
+             <!-- 分页-->
+             <dependency>
+               <groupId>com.github.miemiedev</groupId>
+               <artifactId>mybatis-paginator</artifactId>
+             </dependency>
+             <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+             </dependency>
             <!-- IO操作 -->
             <dependency>
                 <groupId>commons-io</groupId>

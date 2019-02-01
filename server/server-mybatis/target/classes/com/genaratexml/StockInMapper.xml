@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.genaratexml.StockInMapper" >
+  <resultMap id="BaseResultMap" type="com.common.pojo.StockIn" >
+    <id column="Gno" property="gno" jdbcType="VARCHAR" />
+    <id column="Pno" property="pno" jdbcType="VARCHAR" />
+    <id column="StockNO" property="stockno" jdbcType="VARCHAR" />
+    <result column="StoragesNo" property="storagesno" jdbcType="VARCHAR" />
+    <result column="StockInTime" property="stockintime" jdbcType="DATE" />
+    <result column="StockInNumber" property="stockinnumber" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.common.pojo.StockIn" extends="BaseResultMap" >
+    <result column="StockInPrice" property="stockinprice" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    Gno, Pno, StockNO, StoragesNo, StockInTime, StockInNumber
+  </sql>
+  <sql id="Blob_Column_List" >
+    StockInPrice
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.common.pojo.StockInExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from Stock_In
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.common.pojo.StockInExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from Stock_In
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="com.common.pojo.StockInKey" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from Stock_In
+    where Gno = #{gno,jdbcType=VARCHAR}
+      and Pno = #{pno,jdbcType=VARCHAR}
+      and StockNO = #{stockno,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="com.common.pojo.StockInKey" >
+    delete from Stock_In
+    where Gno = #{gno,jdbcType=VARCHAR}
+      and Pno = #{pno,jdbcType=VARCHAR}
+      and StockNO = #{stockno,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.common.pojo.StockInExample" >
+    delete from Stock_In
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.common.pojo.StockIn" >
+    insert into Stock_In (Gno, Pno, StockNO, 
+      StoragesNo, StockInTime, StockInNumber, 
+      StockInPrice)
+    values (#{gno,jdbcType=VARCHAR}, #{pno,jdbcType=VARCHAR}, #{stockno,jdbcType=VARCHAR}, 
+      #{storagesno,jdbcType=VARCHAR}, #{stockintime,jdbcType=DATE}, #{stockinnumber,jdbcType=INTEGER}, 
+      #{stockinprice,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.common.pojo.StockIn" >
+    insert into Stock_In
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="gno != null" >
+        Gno,
+      </if>
+      <if test="pno != null" >
+        Pno,
+      </if>
+      <if test="stockno != null" >
+        StockNO,
+      </if>
+      <if test="storagesno != null" >
+        StoragesNo,
+      </if>
+      <if test="stockintime != null" >
+        StockInTime,
+      </if>
+      <if test="stockinnumber != null" >
+        StockInNumber,
+      </if>
+      <if test="stockinprice != null" >
+        StockInPrice,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="gno != null" >
+        #{gno,jdbcType=VARCHAR},
+      </if>
+      <if test="pno != null" >
+        #{pno,jdbcType=VARCHAR},
+      </if>
+      <if test="stockno != null" >
+        #{stockno,jdbcType=VARCHAR},
+      </if>
+      <if test="storagesno != null" >
+        #{storagesno,jdbcType=VARCHAR},
+      </if>
+      <if test="stockintime != null" >
+        #{stockintime,jdbcType=DATE},
+      </if>
+      <if test="stockinnumber != null" >
+        #{stockinnumber,jdbcType=INTEGER},
+      </if>
+      <if test="stockinprice != null" >
+        #{stockinprice,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.common.pojo.StockInExample" resultType="java.lang.Integer" >
+    select count(*) from Stock_In
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update Stock_In
+    <set >
+      <if test="record.gno != null" >
+        Gno = #{record.gno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.pno != null" >
+        Pno = #{record.pno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.stockno != null" >
+        StockNO = #{record.stockno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.storagesno != null" >
+        StoragesNo = #{record.storagesno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.stockintime != null" >
+        StockInTime = #{record.stockintime,jdbcType=DATE},
+      </if>
+      <if test="record.stockinnumber != null" >
+        StockInNumber = #{record.stockinnumber,jdbcType=INTEGER},
+      </if>
+      <if test="record.stockinprice != null" >
+        StockInPrice = #{record.stockinprice,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update Stock_In
+    set Gno = #{record.gno,jdbcType=VARCHAR},
+      Pno = #{record.pno,jdbcType=VARCHAR},
+      StockNO = #{record.stockno,jdbcType=VARCHAR},
+      StoragesNo = #{record.storagesno,jdbcType=VARCHAR},
+      StockInTime = #{record.stockintime,jdbcType=DATE},
+      StockInNumber = #{record.stockinnumber,jdbcType=INTEGER},
+      StockInPrice = #{record.stockinprice,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update Stock_In
+    set Gno = #{record.gno,jdbcType=VARCHAR},
+      Pno = #{record.pno,jdbcType=VARCHAR},
+      StockNO = #{record.stockno,jdbcType=VARCHAR},
+      StoragesNo = #{record.storagesno,jdbcType=VARCHAR},
+      StockInTime = #{record.stockintime,jdbcType=DATE},
+      StockInNumber = #{record.stockinnumber,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.common.pojo.StockIn" >
+    update Stock_In
+    <set >
+      <if test="storagesno != null" >
+        StoragesNo = #{storagesno,jdbcType=VARCHAR},
+      </if>
+      <if test="stockintime != null" >
+        StockInTime = #{stockintime,jdbcType=DATE},
+      </if>
+      <if test="stockinnumber != null" >
+        StockInNumber = #{stockinnumber,jdbcType=INTEGER},
+      </if>
+      <if test="stockinprice != null" >
+        StockInPrice = #{stockinprice,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where Gno = #{gno,jdbcType=VARCHAR}
+      and Pno = #{pno,jdbcType=VARCHAR}
+      and StockNO = #{stockno,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.common.pojo.StockIn" >
+    update Stock_In
+    set StoragesNo = #{storagesno,jdbcType=VARCHAR},
+      StockInTime = #{stockintime,jdbcType=DATE},
+      StockInNumber = #{stockinnumber,jdbcType=INTEGER},
+      StockInPrice = #{stockinprice,jdbcType=LONGVARCHAR}
+    where Gno = #{gno,jdbcType=VARCHAR}
+      and Pno = #{pno,jdbcType=VARCHAR}
+      and StockNO = #{stockno,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.common.pojo.StockIn" >
+    update Stock_In
+    set StoragesNo = #{storagesno,jdbcType=VARCHAR},
+      StockInTime = #{stockintime,jdbcType=DATE},
+      StockInNumber = #{stockinnumber,jdbcType=INTEGER}
+    where Gno = #{gno,jdbcType=VARCHAR}
+      and Pno = #{pno,jdbcType=VARCHAR}
+      and StockNO = #{stockno,jdbcType=VARCHAR}
+  </update>
+</mapper>

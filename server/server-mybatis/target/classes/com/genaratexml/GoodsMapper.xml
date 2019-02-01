@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.genaratexml.GoodsMapper" >
+  <resultMap id="BaseResultMap" type="com.common.pojo.Goods" >
+    <id column="Gno" property="gno" jdbcType="VARCHAR" />
+    <result column="Gname" property="gname" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    Gno, Gname
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.common.pojo.GoodsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from Goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from Goods
+    where Gno = #{gno,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from Goods
+    where Gno = #{gno,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.common.pojo.GoodsExample" >
+    delete from Goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.common.pojo.Goods" >
+    insert into Goods (Gno, Gname)
+    values (#{gno,jdbcType=VARCHAR}, #{gname,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.common.pojo.Goods" >
+    insert into Goods
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="gno != null" >
+        Gno,
+      </if>
+      <if test="gname != null" >
+        Gname,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="gno != null" >
+        #{gno,jdbcType=VARCHAR},
+      </if>
+      <if test="gname != null" >
+        #{gname,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.common.pojo.GoodsExample" resultType="java.lang.Integer" >
+    select count(*) from Goods
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update Goods
+    <set >
+      <if test="record.gno != null" >
+        Gno = #{record.gno,jdbcType=VARCHAR},
+      </if>
+      <if test="record.gname != null" >
+        Gname = #{record.gname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update Goods
+    set Gno = #{record.gno,jdbcType=VARCHAR},
+      Gname = #{record.gname,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.common.pojo.Goods" >
+    update Goods
+    <set >
+      <if test="gname != null" >
+        Gname = #{gname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where Gno = #{gno,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.common.pojo.Goods" >
+    update Goods
+    set Gname = #{gname,jdbcType=VARCHAR}
+    where Gno = #{gno,jdbcType=VARCHAR}
+  </update>
+</mapper>

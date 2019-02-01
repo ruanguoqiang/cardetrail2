@@ -16,7 +16,54 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a2d3c7-8e59-4ad8-b477-6b063a79d0ea" name="Default" comment="" />
+    <list default="true" id="a8a2d3c7-8e59-4ad8-b477-6b063a79d0ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/server_controller_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/server_controller_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cardetail.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/target/client-1.0-SNAPSHOT/WEB-INF/lib/server-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/client/target/client-1.0-SNAPSHOT/WEB-INF/lib/server-interface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/client/target/client-1.0-SNAPSHOT/WEB-INF/lib/server-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/client/target/client-1.0-SNAPSHOT/WEB-INF/lib/server-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java" afterPath="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java" />
+      <change beforePath="$PROJECT_DIR$/manager-front/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/manager-front/src/main/resources/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer-front.xml" afterPath="$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer-front.xml" />
+      <change beforePath="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp" afterPath="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/treestyle.jsp" afterPath="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/treestyle.jsp" />
+      <change beforePath="$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.css" afterPath="$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.css" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/manager-front/target/classes/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/classes/dubbo-consumer-front.xml" afterPath="$PROJECT_DIR$/manager-front/target/classes/dubbo-consumer-front.xml" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/classes/dubbo-consumer-front.xml" afterPath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/classes/dubbo-consumer-front.xml" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/html/index.jsp" afterPath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/html/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/html/treestyle.jsp" afterPath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/html/treestyle.jsp" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/lib/server-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/lib/server-interface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/lib/server-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/manager-front/target/manager-front-1.0-SNAPSHOT/WEB-INF/lib/server-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manager-front/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/pom.xml" afterPath="$PROJECT_DIR$/server/server-controller/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/server-controller.iml" afterPath="$PROJECT_DIR$/server/server-controller/server-controller.iml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/src/main/resources/applicationContext-mybatis.xml" afterPath="$PROJECT_DIR$/server/server-controller/src/main/resources/applicationContext-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/src/main/resources/dubbo-provider.xml" afterPath="$PROJECT_DIR$/server/server-controller/src/main/resources/dubbo-provider.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/classes/applicationContext-mybatis.xml" afterPath="$PROJECT_DIR$/server/server-controller/target/classes/applicationContext-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/classes/dubbo-provider.xml" afterPath="$PROJECT_DIR$/server/server-controller/target/classes/dubbo-provider.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-mybatis.xml" afterPath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-mybatis.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/classes/dubbo-provider.xml" afterPath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/classes/dubbo-provider.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/lib/server-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/lib/server-interface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/lib/server-mybatis-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/lib/server-mybatis-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/lib/server-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/server/server-controller/target/server-controller-1.0-SNAPSHOT/WEB-INF/lib/server-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/server/server-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-mybatis/pom.xml" afterPath="$PROJECT_DIR$/server/server-mybatis/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-mybatis/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/server/server-mybatis/src/main/resources/generatorConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-mybatis/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/server/server-mybatis/target/classes/generatorConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/server/server-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/server-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="F:/cardetail2/sso/target/" />
@@ -56,51 +103,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp">
+      <file leaf-file-name="ProvideController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ProvideController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4070">
-              <caret line="185" column="49" lean-forward="false" selection-start-line="185" selection-start-column="49" selection-end-line="185" selection-end-column="49" />
+            <state relative-caret-position="83">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/left.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1633">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="-1127">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="-1686">
+              <caret line="260" column="38" lean-forward="true" selection-start-line="260" selection-start-column="38" selection-end-line="260" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/server-controller/pom.xml">
+      <file leaf-file-name="provide.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/provide.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="375">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1549006035414" expanded="true" signature="8928:8948" ph="..." />
+                <marker date="1549006035414" expanded="true" signature="9127:9147" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="4" column="7270" lean-forward="false" selection-start-line="4" selection-start-column="7270" selection-end-line="4" selection-end-column="7270" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/LoginUser.java">
+      <file leaf-file-name="sb-admin-2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/sb-admin-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sb-admin-2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2773">
+              <caret line="431" column="25" lean-forward="true" selection-start-line="431" selection-start-column="25" selection-end-line="431" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -111,25 +197,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>httpclient</find>
-      <find>sso.server.url</find>
-      <find>sso</find>
-      <find>findListById</find>
-      <find>find</find>
-      <find>cn.genaratexml</find>
-      <find>AuthenticationRpcService</find>
-      <find>Base_Column_List</find>
       <find>_parameter</find>
       <find>noValue</find>
       <find>listValue</find>
@@ -152,6 +230,14 @@
       <find>nav-second-level</find>
       <find>col-lg-12</find>
       <find>:before</find>
+      <find>provide.jsp</find>
+      <find>github</find>
+      <find>updateByExampleSelective</find>
+      <find>.draw()</find>
+      <find>margin-left</find>
+      <find>margin-left: 5px;</find>
+      <find>fa</find>
+      <find>font</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -159,6 +245,9 @@
     <dirStrings>
       <dir>F:\cardetail</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -168,27 +257,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/server-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/server/server-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/filter/ApplicationPermission.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/filter/ParamFilter.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/filter/SmartContainer.java" />
-        <option value="$PROJECT_DIR$/server/server-controller/src/main/resources/spring-mq-sso.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/ApplicationPermission.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
-        <option value="$PROJECT_DIR$/sso/pom.xml" />
-        <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/AuthenticationRpcServiceImpl.java" />
-        <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/PermissionJmsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/PermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/server/server-interface/src/main/java/com/qiangge/interf/UserService.java" />
         <option value="$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/UserMapper.xml" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/controller/TestSsoController.java" />
         <option value="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ShowTree.java" />
-        <option value="$PROJECT_DIR$/server/server-mybatis/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/pojo/ItemCarExample.java" />
         <option value="$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/ItemCarMapper.java" />
         <option value="$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/ZTreeNode.java" />
@@ -196,29 +270,44 @@
         <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/util/DtoUtil.java" />
         <option value="$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/ItemCarServiceImp.java" />
-        <option value="$PROJECT_DIR$/server/server-controller/src/main/resources/dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/server/server-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/ItemCarMapper.xml" />
         <option value="$PROJECT_DIR$/manager-front/src/main/resources/spring-mq-sso.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer-front.xml" />
         <option value="$PROJECT_DIR$/manager-front/pom.xml" />
-        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/treestyle.jsp" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/login.html" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.html" />
-        <option value="$PROJECT_DIR$/manager-front/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ShowTreeController.java" />
         <option value="$PROJECT_DIR$/manager-front/src/main/java/com/controller/testController.java" />
-        <option value="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java" />
         <option value="$PROJECT_DIR$/manager-front/src/main/resources/applicationContext-mvc.xml" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/font-awesome/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/login.jsp" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/top.jsp" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/main.jsp" />
         <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/left.jsp" />
-        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp" />
         <option value="$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/LoginUser.java" />
+        <option value="$PROJECT_DIR$/server/server-mybatis/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/server/server-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/pojo/StockInExample.java" />
+        <option value="$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/StoragesMapper.java" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer-front.xml" />
+        <option value="$PROJECT_DIR$/server/server-controller/src/main/resources/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp" />
+        <option value="$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/pojo/Provider.java" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/treestyle.jsp" />
+        <option value="$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/DataTablesResult.java" />
+        <option value="$PROJECT_DIR$/server/server-interface/src/main/java/com/qiangge/interf/ProvideService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/server/server-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/ProvideServiceImp.java" />
+        <option value="$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/ProviderMapper.xml" />
+        <option value="$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/ProviderMapper.java" />
+        <option value="$PROJECT_DIR$/server/server-controller/src/main/resources/applicationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/java/com/controller/ProvideController.java" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.css" />
+        <option value="$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/provide.jsp" />
       </list>
     </option>
   </component>
@@ -241,6 +330,14 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Administrator.MICROSOFT\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\Administrator.MICROSOFT\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -255,16 +352,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cardetail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="manager-front" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="manager-front" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -284,169 +377,29 @@
             <id />
           </State>
           <State>
-            <id>Android</id>
-          </State>
-          <State>
             <id>Android &gt; Lint &gt; Correctness</id>
           </State>
           <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+            <id>Gradle</id>
           </State>
           <State>
-            <id>Android &gt; Lint &gt; Internationalization</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
-            <id>Application Server Specific Inspections</id>
-          </State>
-          <State>
-            <id>Batch Applications Issues</id>
-          </State>
-          <State>
-            <id>CDI(Contexts and Dependency Injection) issues</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>Code maturity issuesJava</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>Hibernate Issues</id>
-          </State>
-          <State>
-            <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>JBoss Seam issues</id>
-          </State>
-          <State>
-            <id>JPA issues</id>
-          </State>
-          <State>
-            <id>JUnit issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 7Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java EE issues</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Javadoc issuesJava</id>
+            <id>Kotlin</id>
           </State>
           <State>
             <id>Maven</id>
           </State>
           <State>
-            <id>Numeric issuesJava</id>
+            <id>OSGi</id>
           </State>
           <State>
-            <id>Pages Navigation Model</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Portability issuesJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>SetupSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring AOPSpring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring IntegrationSpring</id>
-          </State>
-          <State>
-            <id>Spring SecuritySpring</id>
-          </State>
-          <State>
-            <id>Spring Web ServicesSpring</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 2Struts</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>Web Services</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>XPath</id>
+            <id>Probable bugsGradle</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -463,13 +416,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cardetail" type="58d84e3e:PackageViewProjectNode" />
+              <item name="client" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
               <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
@@ -489,43 +478,247 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="cardetail" type="58d84e3e:PackageViewProjectNode" />
-              <item name="client" type="616d4139:PackageViewModuleNode" />
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="layer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="smart-static" type="462c0819:PsiDirectoryNode" />
+              <item name="layer" type="462c0819:PsiDirectoryNode" />
+              <item name="2.4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardetail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardetail" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="server-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.50054646" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="F:/bootstrap-ui-4/startbootstrap-sb-admin-2-gh-pages" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="F:/xmall/xmall" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\css" />
-      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\js" />
-      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\morrisjs" />
-      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static" />
-      <recent name="F:\cardetail\manager-front\src\main\webapp\WEB-INF\html" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\cardetail\server\server-mybatis\src\main\java\com\genaratexml" />
+      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\chart" />
+      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\js\jquery" />
+      <recent name="F:\cardetail\server\server-mybatis\src\main\java\com" />
+      <recent name="F:\cardetail\server\server-dao\src\main\java\cn\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.common.model" />
@@ -534,12 +727,12 @@
       <recent name="com.rpc.service" />
       <recent name="com.filter" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\chart" />
-      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\js\jquery" />
-      <recent name="F:\cardetail\server\server-mybatis\src\main\java\com\genaratexml" />
-      <recent name="F:\cardetail\server\server-mybatis\src\main\java\com" />
-      <recent name="F:\cardetail\server\server-dao\src\main\java\cn\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static" />
+      <recent name="F:\cardetail\server\server-controller\src\main\resources" />
+      <recent name="F:\cardetail\server\server-pojo\src\main\java\com\common\model" />
+      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\datatables" />
+      <recent name="F:\cardetail\manager-front\src\main\webapp\smart-static\datatables\1.10.0" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1148,6 +1341,14 @@
       <workItem from="1548117988503" duration="288000" />
       <workItem from="1548228626528" duration="2051000" />
       <workItem from="1548396219267" duration="624000" />
+      <workItem from="1548637044590" duration="16075000" />
+      <workItem from="1548743008588" duration="7574000" />
+      <workItem from="1548753733971" duration="966000" />
+      <workItem from="1548811839497" duration="5686000" />
+      <workItem from="1548902110847" duration="4005000" />
+      <workItem from="1548918114987" duration="9288000" />
+      <workItem from="1548986829143" duration="5314000" />
+      <workItem from="1549001295956" duration="5489000" />
     </task>
     <servers />
   </component>
@@ -1157,7 +1358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437845000" />
+    <option name="totallyTimeSpent" value="492242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1177,33 +1378,33 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32223904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4600326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5424837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58401304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39542484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59216964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59150326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3517398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47145188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30257186" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47145188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1276,22 +1477,16 @@
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ProvideController.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="119" />
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="122" />
+      <option name="time" value="137" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1300,328 +1495,173 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/protocol/InvokerWrapper.class">
+    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="83">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/filter/ExceptionFilter.class">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/filter/SsoFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/monitor/support/MonitorFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/filter/TimeoutFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/filter/TraceFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/filter/ContextFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/filter/GenericFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/filter/ClassLoaderFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/filter/EchoFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/protocol/ProtocolFilterWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/zTree/v3/js/jquery.ztree.all-3.5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="306" column="8" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/login.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.1.RELEASE/spring-web-4.2.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.1.RELEASE/spring-webmvc-4.2.1.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="898" column="0" lean-forward="false" selection-start-line="898" selection-start-column="0" selection-end-line="898" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.1.RELEASE/spring-webmvc-4.2.1.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19624">
-          <caret line="979" column="0" lean-forward="false" selection-start-line="979" selection-start-column="0" selection-end-line="979" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/ItemCarServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/jquery-easing/jquery.easing.js" />
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ShowTreeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/bootstrap.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer-front.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="83">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/all.css" />
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/resources/applicationContext-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/controller/TestSsoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/chart/raphael/raphael.js">
+    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/AuthenticationRpcServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="110">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/sb-admin-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/chart/morrisjs/morris-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="179" lean-forward="false" selection-start-line="4" selection-start-column="179" selection-end-line="4" selection-end-column="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/treestyle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/server/server-interface/src/main/java/com/qiangge/interf/AuthenticationRpcService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="4" column="117343" lean-forward="false" selection-start-line="4" selection-start-column="117343" selection-end-line="4" selection-end-column="117343" />
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/jquery/1.9.1/jquery.js">
+    <entry file="file://$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/ZTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="3571" column="65" lean-forward="true" selection-start-line="3571" selection-start-column="16" selection-end-line="3571" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="909" column="21" lean-forward="false" selection-start-line="909" selection-start-column="21" selection-end-line="909" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="102" column="3" lean-forward="false" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
+        <state relative-caret-position="22">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/testController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="154">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ShowTreeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111542">
-          <caret line="5468" column="1" lean-forward="true" selection-start-line="5468" selection-start-column="1" selection-end-line="5468" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/java/com/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/chart/morrisjs/morris.js">
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/jquery.dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/main.jsp">
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/treestyle.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="539" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="539" selection-end-column="6" />
+        <state relative-caret-position="229">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/top.jsp">
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/datatables/1.10.0/jquery.dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/datatables/1.10.0/jquery.dataTables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/DataTablesResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="162" column="18" lean-forward="false" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/datatables-plugins/index.html" />
+    <entry file="file://$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/pojo/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-pojo/server-pojo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="142" column="8" lean-forward="false" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server-pojo/src/main/java/com/common/model/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/cardetail.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp">
+    <entry file="file://$PROJECT_DIR$/server/server.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4070">
-          <caret line="185" column="49" lean-forward="false" selection-start-line="185" selection-start-column="49" selection-end-line="185" selection-end-column="49" />
+        <state relative-caret-position="242">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/client.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="138" column="42" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="142">
+          <caret line="196" column="40" lean-forward="true" selection-start-line="196" selection-start-column="40" selection-end-line="196" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="115" column="24" lean-forward="false" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1629,16 +1669,224 @@
     <entry file="file://$PROJECT_DIR$/server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server-controller/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.1.RELEASE/spring-webmvc-4.2.1.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="970" column="0" lean-forward="false" selection-start-line="970" selection-start-column="0" selection-end-line="970" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/ProviderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-mybatis/src/main/java/com/genaratexml/ProviderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3146">
+          <caret line="143" column="38" lean-forward="false" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.1/dubbo-2.6.1.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/resources/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.1.RELEASE/spring-web-4.2.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/resources/dubbo-consumer-front.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/resources/applicationContext-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/resources/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-interface/src/main/java/com/qiangge/interf/ProvideService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ItemCarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server-controller/src/main/java/com/rpc/service/imp/ProvideServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1633">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1127">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1686">
+          <caret line="260" column="38" lean-forward="true" selection-start-line="260" selection-start-column="38" selection-end-line="260" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="3682" column="19" lean-forward="false" selection-start-line="3682" selection-start-column="2" selection-end-line="3682" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/sb-admin-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2773">
+          <caret line="431" column="25" lean-forward="true" selection-start-line="431" selection-start-column="25" selection-end-line="431" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/js/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/java/com/controller/ProvideController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="4" column="7270" lean-forward="false" selection-start-line="4" selection-start-column="7270" selection-end-line="4" selection-end-column="7270" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/smart-static/fonts/glyphicons-halflings-regular.eot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-front/src/main/webapp/WEB-INF/html/provide.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1549006035414" expanded="true" signature="8928:8948" ph="..." />
+            <marker date="1549006035414" expanded="true" signature="9127:9147" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
