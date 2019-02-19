@@ -48,7 +48,7 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Dashboard</h1>
+                <h3 class="page-header">Dashboard</h3>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -214,7 +214,7 @@
                 {
                     "data": null,
                     render: function (data, type, row, meta) {
-                        return "<a style=\"text-decoration:none;margin-left:5px\" class=\"ml-5\" onClick=\"admin_role_edit('角色编辑','admin-role-edit',"+row.id+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"\glyphicon glyphicon-wrench\"></i></a> <a style=\"text-decoration:none;margin-left:10px\" class=\"ml-15\" onClick=\"admin_role_del(this,"+row.id+")\" href=\"javascript:;\" title=\"删除\"><i class=\"\glyphicon glyphicon-remove-circle\"></i></a>";
+                        return "<a style=\"text-decoration:none;margin-left:5px\" class=\"ml-5\" onClick=\"admin_role_edit('角色编辑','admin-role-edit',"+row.pno+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"\glyphicon glyphicon-wrench\"></i></a> <a style=\"text-decoration:none;margin-left:10px\" class=\"ml-15\" onClick=\"admin_role_del(this,"+row.pno+")\" href=\"javascript:;\" title=\"删除\"><i class=\"\glyphicon glyphicon-remove-circle\"></i></a>";
                     }
                 }
             ],
@@ -246,6 +246,52 @@
     
     function member_show(title) {
         layer.alert(title);
+    }
+
+    function admin_role_edit(title,url,data,w,h) {
+        if (title == null || title == '') {
+            title=false;
+        };
+        if (url == null || url == '') {
+            url="404.jsp";
+        };
+        if (w == null || w == '') {
+            w=800;
+        };
+        if (h == null || h == '') {
+            h=($(window).height() - 50);
+        };
+        layer.open({
+            type: 2,
+            area: [w+'px', h +'px'],
+            fix: false, //不固定
+            maxmin: true,
+            shade:0.4,
+            title: title,
+            content: url
+        });
+    };
+
+    function admin_role_del(obj,id){
+        layer.confirm('确认要删除ID为\''+id+'\'的角色吗？',{icon:0},function(index){
+            var index = layer.load(3);
+
+        $.ajax({
+            type:"post",
+            data:{Pno:id},
+            url:"/provide/deleteProvide",
+            dataType:"json",
+            success:function(data){
+                alert("success");
+                var table = $('.table').DataTable();
+                table.ajax.reload(null,false);// 刷新表格数据，分页信息不会重置
+            },
+            error:function(XMLHttpRequest){
+                layer.close(index);
+                layer.alert('数据处理失败! 错误码:'+XMLHttpRequest.status,{title: '错误信息',icon: 2});
+            }
+         });
+        });
     }
 </script>
 
