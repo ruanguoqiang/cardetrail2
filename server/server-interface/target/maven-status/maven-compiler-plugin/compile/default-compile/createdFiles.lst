@@ -1,0 +1,6 @@
+com\qiangge\interf\UserService.class
+com\qiangge\interf\PermissionJmsService.class
+com\qiangge\interf\PermissionService.class
+com\qiangge\interf\ItemCarService.class
+com\qiangge\interf\AuthenticationRpcService.class
+com\qiangge\interf\ProvideService.class

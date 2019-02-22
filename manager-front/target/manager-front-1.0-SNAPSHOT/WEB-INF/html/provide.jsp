@@ -214,7 +214,7 @@
                 {
                     "data": null,
                     render: function (data, type, row, meta) {
-                        return "<a style=\"text-decoration:none;margin-left:5px\" class=\"ml-5\" onClick=\"admin_role_edit('角色编辑','admin-role-edit',"+row.pno+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"\glyphicon glyphicon-wrench\"></i></a> <a style=\"text-decoration:none;margin-left:10px\" class=\"ml-15\" onClick=\"admin_role_del(this,"+row.pno+")\" href=\"javascript:;\" title=\"删除\"><i class=\"\glyphicon glyphicon-remove-circle\"></i></a>";
+                        return "<a style=\"text-decoration:none;margin-left:5px\" class=\"ml-5\" onClick=\"admin_role_edit('角色编辑','/provide/editPage',"+row.pno+")\" href=\"javascript:;\" title=\"编辑\"><i class=\"\glyphicon glyphicon-wrench\"></i></a> <a style=\"text-decoration:none;margin-left:10px\" class=\"ml-15\" onClick=\"admin_role_del(this,"+row.pno+")\" href=\"javascript:;\" title=\"删除\"><i class=\"\glyphicon glyphicon-remove-circle\"></i></a>";
                     }
                 }
             ],
@@ -248,7 +248,12 @@
         layer.alert(title);
     }
 
+    var P_id="", P_name="";
     function admin_role_edit(title,url,data,w,h) {
+        $(".table tbody").on('click','tr',function(){
+            P_name = table.row(this).data().pname;
+            P_id=data;
+        })
         if (title == null || title == '') {
             title=false;
         };

@@ -37,6 +37,11 @@ public class ProvideController {
          return result;
     }
 
+    @RequestMapping(value = "editPage",method = RequestMethod.GET)
+    public String getEditPage(){
+        return "provide-edit";
+    }
+
     @RequestMapping(value = "getProvideList",method = RequestMethod.GET)
     @ResponseBody
     public  DataTablesResult getProvideList(int draw,int start,int length,String searchKey,@RequestParam("search[value]") String search,

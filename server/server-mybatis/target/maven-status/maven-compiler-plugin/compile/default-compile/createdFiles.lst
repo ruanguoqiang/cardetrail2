@@ -1,0 +1,14 @@
+com\genaratexml\StockOutMapper.class
+com\genaratexml\PermissionMapper.class
+com\genaratexml\GoodsMapper.class
+com\genaratexml\AppMapper.class
+com\genaratexml\ConsumerMapper.class
+com\genaratexml\ProviderMapper.class
+com\genaratexml\RolePermissionMapper.class
+com\genaratexml\RoleMapper.class
+com\genaratexml\StoragesMapper.class
+com\genaratexml\UserMapper.class
+com\genaratexml\ItemCarMapper.class
+com\genaratexml\StockInMapper.class
+com\genaratexml\UserRoleMapper.class
+com\genaratexml\StockMapper.class
