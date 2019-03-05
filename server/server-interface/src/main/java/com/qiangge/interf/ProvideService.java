@@ -11,4 +11,12 @@ public interface ProvideService {
 
 
     DataTablesResult getRemoveMemberList(int draw, int start, int length, String searchKey, String orderColumn, String orderDir);
+
+    public Boolean updateProvide(Provider provider);
+
+    public Boolean deleteProvide(String Pid);
+
+    public void insertProvide(Provider provider);
+
+    public Boolean getProvideByname(String pname);
 }

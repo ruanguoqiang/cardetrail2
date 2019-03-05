@@ -43,7 +43,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <form role="form" id="formProvide"  name="formProvide">
-                            <input type="hidden" id="pno" name="pno">
+                            <div class="form-group">
+                                <label for="pname" class="control-label">序号:</label>
+                                <input type="text" class="form-control" id="pno" name="pno">
+                            </div>
                             <div class="form-group">
                                 <label for="pname" class="control-label">供应商姓名:</label>
                                 <input type="text" class="form-control" id="pname" name="pname">
@@ -57,7 +60,7 @@
                                 <input type="text" name="ptel" class="form-control" id="ptel"/>
                             </div>
 
-                            <button type="submit" class="btn btn-default" onclick="updateProvide()">提交</button>
+                            <button type="submit" class="btn btn-default" onclick="addProvide()">添加</button>
                             <button type="reset" class="btn btn-default">重置</button>
                         </form>
                     </div>
@@ -87,67 +90,59 @@
 <!-- Metis Menu Plugin JavaScript -->
 <script  src="../smart-static/datatables-plugins/dataTables.bootstrap.js"></script>
 <script src="../smart-static/metisMenu/metisMenu.js"></script>
+<script src="../smart-static/js/jquery.dataTables.js"></script>
+<script src="../smart-static/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script src="../smart-static/jquery.validation/1.14.0/messages_zh.js"></script>
 
-<!-- Morris Charts JavaScript -->
-<%--
-<script src="../smart-static/chart/raphael/raphael.js"></script>
-<script src="../smart-static/chart/morrisjs/morris.js"></script>
-<script src="../smart-static/chart/morrisjs/morris-data.js"></script>
---%>
+
 
 <!-- Custom Theme JavaScript -->
 <script src="../smart-static/js/sb-admin-2.js"></script>
 
 <script type="text/javascript">
-  var P_id=parent.P_id;
-  var P_name=parent.P_name;
-  $.ajax({
-      url:"/provide/getProvide",
-      type:"get",
-      data:{Pno:P_id},
-      dataType:"json",
-      success:function(data){
-          if (data.success==true){
-             /* $.each(data.data,function (index,provide) {
-                  $(".pname").val(provide.pname);
-                  alert(provide.pname);
-              })*/
-              var provideList=data.data;
-              for(var i=0;i<provideList.length;i++){
-                  $("#pno").val(provideList[i].pno);
-                  $("#pname").val(provideList[i].pname);
-                  $("#padddr").val(provideList[i].padddr);
-                  $("#ptel").val(provideList[i].ptel);
-              }
-          }
-      }
-  })
-    
-    function updateProvide() {
-        /*  var form_data = $("#formProvide").serializeArray();
-              var obj = {};
-            $.each(form_data,function(i,v){
-                        obj[v.name] = v.value;
-                    });*/
-       var obj= JSON.stringify($('#formProvide').serializeJSON());
-        $.ajax({
-            type:"post",
-            url:"/provide/updateProvide",
-            data:obj,
-            contentType: "application/json",
-            dataType:"json",
-            success:function(data){
-                if(data.meaasge="success"){
-                    parent.refresh();
-                    parent.msgSuccess("编辑成功!");
-                    var index = parent.layer.getFrameIndex(window.name);
-                    parent.layer.close(index);
-                }
+    function addProvide(){
+    $("#formProvide").validate({
+        rules:{
+            pname:{
+                required:true,
+                minlength:1,
+                maxlength:20,
+              //  remote: "/provide/pname"
             },
-            error:function(XMLHttpRequest){
-                layer.alert('数据处理失败! 错误码:'+XMLHttpRequest.status,{title: '错误信息',icon: 2});
+        },
+        messages: {
+            pname: {
+                remote: "该角色名已被使用"
             }
-        })
+        },
+        onkeyup:false,
+        focusCleanup:false,
+        success:"valid",
+        submitHandler:function(form){
+            var obj= JSON.stringify($('#formProvide').serializeJSON());
+            $.ajax({
+                url: "/provide/insertProvide",
+                type: "POST",
+                data:obj,
+                contentType: "application/json",
+                dataType:"json",
+                success: function(data) {
+                    if(data.message=="success"){
+                        parent.refresh();
+                        parent.msgSuccess("添加成功!");
+                        var index = parent.layer.getFrameIndex(window.name);
+                        parent.layer.close(index);
+                    }else{
+                        layer.alert(data.message, {title: '错误信息',icon: 2});
+                    }
+                },
+                error:function(XMLHttpRequest) {
+                 //   layer.close(index);
+                    layer.alert('数据处理失败! 错误码:'+XMLHttpRequest.status+' 错误信息:'+JSON.parse(XMLHttpRequest.responseText).message,{title: '错误信息',icon: 2});
+                }
+            });
+        }
+    });
     }
 </script>
 </body>

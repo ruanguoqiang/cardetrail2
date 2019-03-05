@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href=../smart-static/css/video-js-cdn.css" />
+    <style type="text/css">
+        .video-js .vjs-big-play-button {
+            position: relative;
+            top: 100px;
+            left: 280px;
+        }
+        .video-js. vjs-big-play-button
+    </style>
+
+    <script src="../smart-static/js/video.novtt.min.js"></script>
+</head>
+
+<body>
+<video id="my-video" class="video-js vjs-default-skin"  style="margin: auto;" poster="http://vjs.zencdn.net/v/oceans.png" width="640" height="264"
+       data-setup="{}" >
+    <source src="../smart-static/Clip_480_5sec_6mbps_h264.mp4" type='video/mp4'/>
+<!--   http://39.104.170.221:8080/usr/local/share/video/ad_mini.mp4
+    <source src="MY_VIDEO.webm" type='video/webm'>
+-->
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+</video>
+<!--
+<script src="../smart-static/js/video.novtt.js"></script>
+-->
+<script src="../smart-static/js/jquery.min.js}"></script>
+</body>
+
+<script>
+    var myPlayer=videojs('my-video', {
+        controls: true,
+        autoplay: false,
+        preload: 'auto'
+    });
+    videojs("my-video").ready(function(){
+        var myPlayer = this;
+      //  myPlayer.play();
+    });
+
+    function doLogin() {
+        var password= $("#password").val();
+        $.ajax({
+            url: "/tomcat-test-1.0-SNAPSHOT/player",
+            type: "GET",
+            data: {
+                file: "/usr/local/share/video/ad_mini.mp4"
+            },
+            success: function (data) {
+                if (data=="0000"){
+                    alert("成功");
+                }
+                else {
+                    alert("调用失败");
+                }
+            }
+        });
+    }
+</script>
+
+</html>

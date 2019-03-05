@@ -2,6 +2,7 @@ package com.rpc.service.imp;
 
 import com.common.model.DataTablesResult;
 import com.common.pojo.Provider;
+import com.common.pojo.ProviderExample;
 import com.genaratexml.ProviderMapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -40,5 +41,34 @@ public class ProvideServiceImp implements ProvideService {
        }
 
         return result;
+    }
+
+    @Override
+    public Boolean updateProvide(Provider provider) {
+        providerMapper.updateByPrimaryKey(provider);
+        return true;
+    }
+
+    @Override
+    public Boolean deleteProvide(String Pid) {
+        providerMapper.deleteByPrimaryKey(Pid);
+        return true;
+    }
+
+    @Override
+    public void insertProvide(Provider provider) {
+        providerMapper.insert(provider);
+    }
+
+    @Override
+    public Boolean getProvideByname(String pname) {
+        ProviderExample providerExample=new ProviderExample();
+        ProviderExample.Criteria criteria= providerExample.createCriteria();
+        criteria.andPnameEqualTo(pname);
+        List<Provider> providers= providerMapper.selectByExample(providerExample);
+        if (providers.size()>0){
+            return true;
+        }
+        return  false;
     }
 }

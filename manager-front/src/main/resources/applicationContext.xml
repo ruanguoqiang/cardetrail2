@@ -16,6 +16,24 @@
 
 	 <aop:aspectj-autoproxy/>
 
+	<bean  id="smartFilter" class="com.filter.SmartContainer">
+		<property name="ssoServerUrl" value="http://localhost:8082"/>
+		<property name="isServer" value="false"/>
+		<property name="filters" >
+			<list>
+				<bean class="com.filter.SsoFilter">
+				</bean>
+				<!--<bean class="com.filter.LogoutFilter">
+					<property name="pattern" value="/admin/logout" />
+					<property name="ssoBackUrl" value="/admin/index" />
+				</bean>-->
+				<bean class="com.filter.PermissionFilter">
+					<property name="ssoAppCode" value="${sso.app.code}" />
+				</bean>
+			</list>
+
+		</property>
+	</bean>
 
 
 	<import resource="dubbo-consumer-front.xml" />

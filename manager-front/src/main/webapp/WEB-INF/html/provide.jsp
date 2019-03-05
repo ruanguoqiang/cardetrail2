@@ -60,7 +60,7 @@
                     <div class="panel-heading">
                         <a href="javascript:;" onclick="datadel()" class="btn btn-danger " style="margin-left: 10px">
                             <i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
-                        <a class="btn btn-primary " style="margin-left: 20px" onclick="admin_role_add('添加角色','admin-role-add')" href="javascript:;">
+                        <a class="btn btn-primary " style="margin-left: 20px" onclick="provide_add('添加提供商','provideAdd')" href="javascript:;">
                             <i class="Hui-iconfont">&#xe600;</i> 添加角色</a>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
 
             </div>
             <!-- /.col-lg-8 -->
-            <div class="col-lg-6 col-md-12">
+         <%--   <div class="col-lg-6 col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <i class="fa fa-bell fa-fw"></i> Notifications Panel
@@ -151,7 +151,7 @@
                 </div>
 
 
-            </div>
+            </div>--%>
             <!-- /.col-lg-4 -->
         </div>
         <!-- /.row -->
@@ -199,7 +199,7 @@
                 {
                     "data": null,
                     render: function (data, type, row, meta) {
-                        return "<input name=\"checkbox\" value=\"" + row.id + "\" type=\"checkbox\" value=\"\">";
+                        return "<input name=\"checkbox\" value=\"" + row.pno + "\" type=\"checkbox\" value=\"\">";
                     }
                 },
                 {
@@ -250,7 +250,8 @@
 
     var P_id="", P_name="";
     function admin_role_edit(title,url,data,w,h) {
-        $(".table tbody").on('click','tr',function(){
+        var table = $('.table').DataTable();
+        $('.table tbody').on('click','tr',function(){
             P_name = table.row(this).data().pname;
             P_id=data;
         })
@@ -277,6 +278,34 @@
         });
     };
 
+    function provide_add(title,url,data,w,h) {
+        var table = $('.table').DataTable();
+        $('.table tbody').on('click','tr',function(){
+            P_name = table.row(this).data().pname;
+            P_id=data;
+        })
+        if (title == null || title == '') {
+            title=false;
+        };
+        if (url == null || url == '') {
+            url="404.jsp";
+        };
+        if (w == null || w == '') {
+            w=800;
+        };
+        if (h == null || h == '') {
+            h=($(window).height() - 50);
+        };
+        layer.open({
+            type: 2,
+            area: [w+'px', h +'px'],
+            fix: false, //不固定
+            maxmin: true,
+            shade:0.4,
+            title: title,
+            content: url
+        });
+    };
     function admin_role_del(obj,id){
         layer.confirm('确认要删除ID为\''+id+'\'的角色吗？',{icon:0},function(index){
             var index = layer.load(3);
@@ -287,9 +316,12 @@
             url:"/provide/deleteProvide",
             dataType:"json",
             success:function(data){
-                alert("success");
-                var table = $('.table').DataTable();
-                table.ajax.reload(null,false);// 刷新表格数据，分页信息不会重置
+                if(data.message=="success") {
+                     layer.close(index);
+                     var table = $('.table').DataTable();
+                    table.ajax.reload(null, false);// 刷新表格数据，分页信息不会重置
+                    layer.msg('已删除!',{icon:1,time:1000});
+                }
             },
             error:function(XMLHttpRequest){
                 layer.close(index);
@@ -298,6 +330,56 @@
          });
         });
     }
+
+    /*批量删除*/
+    function datadel() {
+        var cks=document.getElementsByName("checkbox");
+        var count=0,ids="";
+        for(var i=0;i<cks.length;i++){
+            if(cks[i].checked){
+                count++;
+                ids+=cks[i].value+",";
+            }
+        }
+        if(count==0){
+            layer.msg('您还未勾选任何数据!',{icon:5,time:3000});
+            return;
+        }
+        /*去除末尾逗号*/
+        if(ids.length>0){
+            ids=ids.substring(0,ids.length-1);
+        }
+        layer.confirm('确认要删除所选的'+count+'条数据吗？',{icon:0},function(index){
+            var index = layer.load(3);
+            $.ajax({
+                type: 'DELETE',
+                url: '/provide/deleteProvideList/'+ids,
+                dataType: 'json',
+                success:function(data){
+                    layer.close(index);
+                    if(data.message!="success"){
+                        layer.alert(data.message,{title: '错误信息',icon: 2});
+                        return;
+                    }
+                    layer.msg('已删除!',{icon:1,time:1000});
+                    var table = $('.table').DataTable();
+                    table.ajax.reload(null,false);// 刷新表格数据，分页信息不会重置
+                },
+                error:function(XMLHttpRequest){
+                    layer.close(index);
+                    layer.alert('数据处理失败! 错误码:'+XMLHttpRequest.status,{title: '错误信息',icon: 2});
+                }
+            });
+        });
+    }
+    function refresh(){
+        var table = $('.table').DataTable();
+        table.ajax.reload(null,false);// 刷新表格数据，分页信息不会重置
+    }
+    function msgSuccess(content){
+        layer.msg(content, {icon: 1,time:3000});
+    }
+
 </script>
 
 </body>

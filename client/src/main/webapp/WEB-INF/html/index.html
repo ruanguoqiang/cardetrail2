@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>视频播放</title>
+</head>
+<body>
+<table>
+ <tr><td><input type="button" id="test1" name="moji" value="提示层"/></td></tr>
+ <tr><td><input type="button" id="test2" name="moji" value="页面层"/></td></tr>
+    <tr><td><input type="button" id="test3" name="moji" value="tips"/></td></tr>
+    <tr><td><input type="button" id="test4" name="播放" value="tips" onclick="doLogin()"/></td></tr>
+    <tr><td class="qiang1">捕获测试行</td></tr>
+
+</table>
+</body>
+<script src="../smart-static/js/jquery.min.js"></script>
+
+<script>
+
+  function doLogin() {
+      var password= $("#password").val();
+      $.ajax({
+          url: "/tomcat-test-1.0-SNAPSHOT/player",
+          type: "GET",
+          data: {
+              file: "/usr/local/share/video/ad_mini.mp4"
+          },
+          success: function (data) {
+              if (data=="0000"){
+                  alert("成功");
+              }
+              else {
+                  alert("调用失败");
+              }
+          }
+      });
+  }
+</script>
+
+</html>

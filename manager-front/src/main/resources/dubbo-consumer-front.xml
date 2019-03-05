@@ -19,4 +19,10 @@
 	<dubbo:reference interface="com.qiangge.interf.ItemCarService" id="itemCarService" />
 	<dubbo:reference interface="com.qiangge.interf.ProvideService" id="provideService" />
 
+	<!-- 单点登录权限服务接口 -->
+	<dubbo:reference interface="com.qiangge.interf.AuthenticationRpcService" id="authenticationRpcService" />
+	<dubbo:reference interface="com.qiangge.interf.PermissionJmsService" id="permissionJmsService" />
+	<dubbo:reference interface="com.qiangge.interf.PermissionService" id="permissionService" />
+	<dubbo:reference interface="com.qiangge.interf.UserService" id="userService" />
+
 </beans>  
